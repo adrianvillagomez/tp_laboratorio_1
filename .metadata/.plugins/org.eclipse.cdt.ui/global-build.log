@@ -1320,3 +1320,72 @@ Info: Nothing to build for TP_1
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
 gcc -o TP_1.exe "src\\TP_1.o" 
+02:06:33 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'utn_PedirNumero':
+..\src\utn.c:13:17: error: 'NULL' undeclared (first use in this function)
+   13 |  if(pResultado!=NULL&&psegundo!=NULL)
+      |                 ^~~~
+..\src\utn.c:1:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+  +++ |+#include <stddef.h>
+    1 | /*
+..\src\utn.c:13:17: note: each undeclared identifier is reported only once for each function it appears in
+   13 |  if(pResultado!=NULL&&psegundo!=NULL)
+      |                 ^~~~
+..\src\utn.c:15:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |  printf("Ingresar 1er operando\n");
+      |  ^~~~~~
+..\src\utn.c:15:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\utn.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\src\utn.c:16:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   16 |  scanf("%f",pResultado);
+      |  ^~~~~
+..\src\utn.c:16:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\src\utn.c:16:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\src\utn.c: In function 'dividirNumeros':
+..\src\utn.c:45:8: error: 'NULL' undeclared (first use in this function)
+   45 |  if(C!=NULL&&B!=0)
+      |        ^~~~
+..\src\utn.c:45:8: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+..\src\utn.c: In function 'factorialNumeros':
+..\src\utn.c:62:8: error: 'NULL' undeclared (first use in this function)
+   62 |  if(D!=NULL&&A!=0)
+      |        ^~~~
+..\src\utn.c:62:8: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+02:10:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\utn.o" 
+Info: Nothing to build for TP_1
+02:31:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\utn.o" 
+02:41:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\utn.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+02:47:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\utn.o" 
+Info: Nothing to build for TP_1
+02:47:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\utn.o" 
+Info: Nothing to build for TP_1
+02:50:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\utn.o" 
+Info: Nothing to build for TP_1

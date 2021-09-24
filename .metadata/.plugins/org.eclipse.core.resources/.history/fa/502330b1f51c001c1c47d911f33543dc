@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "utn.h"
+
 int main(void) {
 	setbuf(stdout,NULL);
 	float A;
@@ -28,18 +28,6 @@ int main(void) {
 	suma=sumaNumeros(A,B);
 	resta=restaNumeros(A, B);
 	multiplicacion=multiplicacionNumeros(A, B);
-	printf("El resultado de A + B es: %.2f\n",suma);
-	printf("El resultado de A - B es: %.2f\n",resta);
-	printf("El resultado de A * B es: %.2f\n",multiplicacion);
-	division=dividirNumeros(A, B, &c);
-	if(division==0)
-		{
-			printf("El resultado de A/B es: %.2f\n",c);
-
-		}else
-			{
-				printf("error en la division ingrese un denominador distinto a 0\n");
-			}
 	factorialA=factorialNumeros(A,&D);
 		if(factorialA==0)
 		{
@@ -56,7 +44,17 @@ int main(void) {
 				{
 					printf("error ingrese un numero distinto de 0\n");
 				}
+	division=dividirNumeros(A, B, &c);
+		if(division==0)
+		{
+			printf("El resultado de A/B es: %.2f\n",c);
 
-
+		}else
+			{
+				printf("error en la division ingrese un denominador distinto a 0\n");
+			}
+	printf("El resultado de A + B es: %.2f\n",suma);
+	printf("El resultado de A - B es: %.2f\n",resta);
+	printf("El resultado de A * B es: %.2f\n",multiplicacion);
 	return EXIT_SUCCESS;
 }
