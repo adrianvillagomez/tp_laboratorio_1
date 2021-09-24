@@ -1,5 +1,1322 @@
-22:56:27 **** Rebuild of configuration Debug for project TP_1 ****
+01:53:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:19:3: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   19 |  B=&A;
+      |   ^
+gcc -o TP_1.exe "src\\TP_1.o" 
+01:54:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:19:3: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   19 |  B=&A;
+      |   ^
+..\src\TP_1.c:20:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]
+   20 |  printf("los valores de A y b son:%d,%d",A,&B);
+      |                                      ~^    ~~
+      |                                       |    |
+      |                                       int  int *
+      |                                      %n
+gcc -o TP_1.exe "src\\TP_1.o" 
+01:54:33 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:19:3: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   19 |  B=&A;
+      |   ^
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:19:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:17:6: warning: unused variable 'A' [-Wunused-variable]
+   17 |  int A;
+      |      ^
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:28:6: error: conflicting types for 'utn_PedirNumeroEntero'
+   28 | void utn_PedirNumeroEntero(int *pResultado)
+      |      ^~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:13:5: note: previous declaration of 'utn_PedirNumeroEntero' was here
+   13 | int utn_PedirNumeroEntero(int *pResultado);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:31:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int **' [-Wformat=]
+   31 |  scanf("%d",&pResultado);
+      |         ~^  ~~~~~~~~~~~
+      |          |  |
+      |          |  int **
+      |          int *
+02:20:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:17:6: warning: unused variable 'A' [-Wunused-variable]
+   17 |  int A;
+      |      ^
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:31:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int **' [-Wformat=]
+   31 |  scanf("%d",&pResultado);
+      |         ~^  ~~~~~~~~~~~
+      |          |  |
+      |          |  int **
+      |          int *
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:22:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:17:6: warning: unused variable 'A' [-Wunused-variable]
+   17 |  int A;
+      |      ^
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:31:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int **' [-Wformat=]
+   31 |  scanf("%d",&pResultado);
+      |         ~^  ~~~~~~~~~~~
+      |          |  |
+      |          |  int **
+      |          int *
+gcc -o TP_1.exe "src\\TP_1.o" 
+02:22:56 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:17:6: warning: unused variable 'A' [-Wunused-variable]
+   17 |  int A;
+      |      ^
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:26:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:20:34: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   20 |  printf("el valor de B y A es%d %d",B);
+      |                                 ~^
+      |                                  |
+      |                                  int
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:32:2: warning: implicit declaration of function 'prtinf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   32 |  prtinf("ingrese el segundo numero\n")
+      |  ^~~~~~
+      |  printf
+..\src\TP_1.c:32:39: error: expected ';' before 'scanf'
+   32 |  prtinf("ingrese el segundo numero\n")
+      |                                       ^
+      |                                       ;
+   33 |  scanf("%d",psegundo);
+      |  ~~~~~                                 
+02:26:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:20:34: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   20 |  printf("el valor de B y A es%d %d",B);
+      |                                 ~^
+      |                                  |
+      |                                  int
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:32:39: error: expected ';' before 'scanf'
+   32 |  printf("ingrese el segundo numero\n")
+      |                                       ^
+      |                                       ;
+   33 |  scanf("%d",psegundo);
+      |  ~~~~~                                 
+02:26:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:20:34: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   20 |  printf("el valor de B y A es%d %d",B);
+      |                                 ~^
+      |                                  |
+      |                                  int
+gcc -o TP_1.exe "src\\TP_1.o" 
+02:27:04 **** Incremental Build of configuration Debug for project TP_1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
 gcc -o TP_1.exe "src\\TP_1.o" 
 Info: Nothing to build for TP_1
+02:31:13 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:36:8: error: expected expression before '=' token
+   36 |  return=0;
+      |        ^
+..\src\TP_1.c:38:1: warning: control reaches end of non-void function [-Wreturn-type]
+   38 | }
+      | ^
+02:32:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:30:8: error: expected expression before '=' token
+   30 |  return=0;
+      |        ^
+..\src\TP_1.c:37:8: error: expected expression before '=' token
+   37 |  return=1;
+      |        ^
+..\src\TP_1.c:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+   40 | }
+      | ^
+02:33:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+02:35:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+02:36:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:37:33 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:39:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:39:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:41:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:45:18: error: expected expression before 'char'
+   45 |   if(pResultado==char&&psegundo==char)
+      |                  ^~~~
+02:42:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:45:16: warning: comparison between pointer and integer
+   45 |   if(pResultado=='c'&&psegundo=='c')
+      |                ^~
+..\src\TP_1.c:45:31: warning: comparison between pointer and integer
+   45 |   if(pResultado=='c'&&psegundo=='c')
+      |                               ^~
+gcc -o TP_1.exe "src\\TP_1.o" 
+02:44:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+02:45:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:52:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'sumaEnteros':
+..\src\TP_1.c:49:6: error: 'A' redeclared as different kind of symbol
+   49 |  int A;
+      |      ^
+..\src\TP_1.c:47:21: note: previous definition of 'A' was here
+   47 | int sumaEnteros(int A,int B)
+      |                 ~~~~^
+..\src\TP_1.c:50:6: error: 'B' redeclared as different kind of symbol
+   50 |  int B;
+      |      ^
+..\src\TP_1.c:47:27: note: previous definition of 'B' was here
+   47 | int sumaEnteros(int A,int B)
+      |                       ~~~~^
+02:52:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+02:55:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+02:58:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:27:39: error: expected ')' before 'B'
+   27 |  printf("el valor de B y A es %d,%d\n"B,A);
+      |                                       ^
+      |                                       )
+..\src\TP_1.c:27:32: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   27 |  printf("el valor de B y A es %d,%d\n"B,A);
+      |                               ~^
+      |                                |
+      |                                int
+..\src\TP_1.c:27:35: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   27 |  printf("el valor de B y A es %d,%d\n"B,A);
+      |                                  ~^
+      |                                   |
+      |                                   int
+03:00:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:01:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:01:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:02:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'sumaEnteros':
+..\src\TP_1.c:54:12: error: expected expression before 'float'
+   54 |  resultado=float A+B;
+      |            ^~~~~
+03:03:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:05:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\TP_1.o: in function `main':
+C:\Users\adrian\UTN_laboratorio_1\TP_1\Debug/../src/TP_1.c:22: undefined reference to `utn_PedirNumeroEntero'
+collect2.exe: error: ld returned 1 exit status
+03:05:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:06:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:28:7: warning: implicit declaration of function 'sumaEnteros'; did you mean 'sumaNumeros'? [-Wimplicit-function-declaration]
+   28 |  suma=sumaEnteros(A, B);
+      |       ^~~~~~~~~~~
+      |       sumaNumeros
+gcc -o TP_1.exe "src\\TP_1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\TP_1.o: in function `main':
+C:\Users\adrian\UTN_laboratorio_1\TP_1\Debug/../src/TP_1.c:28: undefined reference to `sumaEnteros'
+collect2.exe: error: ld returned 1 exit status
+03:06:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\TP_1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\TP_1.o: in function `main':
+C:\Users\adrian\UTN_laboratorio_1\TP_1\Debug/../src/TP_1.c:28: undefined reference to `sumaEnteros'
+collect2.exe: error: ld returned 1 exit status
+03:07:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:07:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:22:28: warning: passing argument 1 of 'utn_PedirNumeroEntero' from incompatible pointer type [-Wincompatible-pointer-types]
+   22 |  aux=utn_PedirNumeroEntero(&B,&A);
+      |                            ^~
+      |                            |
+      |                            int *
+..\src\TP_1.c:13:34: note: expected 'float *' but argument is of type 'int *'
+   13 | int utn_PedirNumeroEntero(float *pResultado,float*psegundo);
+      |                           ~~~~~~~^~~~~~~~~~
+..\src\TP_1.c:22:31: warning: passing argument 2 of 'utn_PedirNumeroEntero' from incompatible pointer type [-Wincompatible-pointer-types]
+   22 |  aux=utn_PedirNumeroEntero(&B,&A);
+      |                               ^~
+      |                               |
+      |                               int *
+..\src\TP_1.c:13:51: note: expected 'float *' but argument is of type 'int *'
+   13 | int utn_PedirNumeroEntero(float *pResultado,float*psegundo);
+      |                                             ~~~~~~^~~~~~~~
+..\src\TP_1.c: In function 'utn_PedirNumeroEntero':
+..\src\TP_1.c:44:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   44 |  scanf("%d",pResultado);
+      |         ~^  ~~~~~~~~~~
+      |          |  |
+      |          |  float *
+      |          int *
+      |         %e
+..\src\TP_1.c:46:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   46 |  scanf("%d",psegundo);
+      |         ~^  ~~~~~~~~
+      |          |  |
+      |          |  float *
+      |          int *
+      |         %e
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:08:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:27:35: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   27 |  printf("---el valor de A Y B es %d,%d---\n\n",B,A);
+      |                                  ~^            ~
+      |                                   |            |
+      |                                   int          double
+      |                                  %f
+..\src\TP_1.c:27:38: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   27 |  printf("---el valor de A Y B es %d,%d---\n\n",B,A);
+      |                                     ~^           ~
+      |                                      |           |
+      |                                      int         double
+      |                                     %f
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:08:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+03:09:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:10:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:29:36: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   29 |  printf("El resultado de A + B es:%f",suma);
+      |                                   ~^  ~~~~
+      |                                    |  |
+      |                                    |  int
+      |                                    double
+      |                                   %d
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:10:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:14:11 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:29:9: warning: too many arguments for format [-Wformat-extra-args]
+   29 |  printf("El resultado de A + B es:(float)",suma);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:14:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:29:43: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   29 |  printf("El resultado de A + B es:(float)%f",suma);
+      |                                          ~^  ~~~~
+      |                                           |  |
+      |                                           |  int
+      |                                           double
+      |                                          %d
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:15:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:16:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+03:17:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:17:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:29:38: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   29 |  printf("El resultado de A + B es:%.3f",suma);
+      |                                   ~~~^  ~~~~
+      |                                      |  |
+      |                                      |  int
+      |                                      double
+      |                                   %.3d
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:18:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:19:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+03:20:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:20:6: warning: variable 'aux' set but not used [-Wunused-but-set-variable]
+   20 |  int aux;
+      |      ^~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+03:21:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+03:21:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+03:22:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+12:38:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+12:38:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+12:39:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+12:40:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c:46:7: error: conflicting types for 'sumaNumeros'
+   46 | float sumaNumeros(int A,int B)
+      |       ^~~~~~~~~~~
+..\src\TP_1.c:14:5: note: previous declaration of 'sumaNumeros' was here
+   14 | int sumaNumeros(int A,int B);
+      |     ^~~~~~~~~~~
+12:40:20 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+12:44:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+12:46:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'restaNumeros':
+..\src\TP_1.c:56:2: error: 'resultado' undeclared (first use in this function); did you mean 'resutaldo'?
+   56 |  resultado=A-B;
+      |  ^~~~~~~~~
+      |  resutaldo
+..\src\TP_1.c:56:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:55:6: warning: unused variable 'resutaldo' [-Wunused-variable]
+   55 |  int resutaldo;
+      |      ^~~~~~~~~
+..\src\TP_1.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+   58 | }
+      | ^
+12:47:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+12:53:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:24:8: warning: variable 'multiplicacion' set but not used [-Wunused-but-set-variable]
+   24 |  float multiplicacion;
+      |        ^~~~~~~~~~~~~~
+..\src\TP_1.c:23:8: warning: variable 'resta' set but not used [-Wunused-but-set-variable]
+   23 |  float resta;
+      |        ^~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+12:53:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+12:54:30 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+12:54:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:09:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:10:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:11:40 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+13:14:13 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:26:8: warning: variable 'division' set but not used [-Wunused-but-set-variable]
+   26 |  float division;
+      |        ^~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:17:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:18:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:19:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:21:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+13:21:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:22:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:34:11: warning: implicit declaration of function 'dividirNumero'; did you mean 'dividirNumeros'? [-Wimplicit-function-declaration]
+   34 |  division=dividirNumero(A, B, &c);
+      |           ^~~~~~~~~~~~~
+      |           dividirNumeros
+..\src\TP_1.c:35:12: error: too few arguments to function 'factorialNumeros'
+   35 |  factorial=factorialNumeros(A);
+      |            ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:7: note: declared here
+   18 | float factorialNumeros(float A,float B);
+      |       ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:103:5: error: conflicting types for 'factorialNumeros'
+  103 | int factorialNumeros(float A)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:7: note: previous declaration of 'factorialNumeros' was here
+   18 | float factorialNumeros(float A,float B);
+      |       ^~~~~~~~~~~~~~~~
+18:23:11 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:35:11: warning: implicit declaration of function 'dividirNumero'; did you mean 'dividirNumeros'? [-Wimplicit-function-declaration]
+   35 |  division=dividirNumero(A, B, &c);
+      |           ^~~~~~~~~~~~~
+      |           dividirNumeros
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:103:5: error: conflicting types for 'factorialNumeros'
+  103 | int factorialNumeros(float A)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:7: note: previous declaration of 'factorialNumeros' was here
+   18 | float factorialNumeros(float A);
+      |       ^~~~~~~~~~~~~~~~
+18:24:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:29:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+18:30:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+18:33:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+18:35:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:41:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c:103:5: error: conflicting types for 'factorialNumeros'
+  103 | int factorialNumeros(float *A)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: previous declaration of 'factorialNumeros' was here
+   18 | int factorialNumeros(float A);
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:108:28: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  108 |  printf("el valor de A es:%f\n",A);
+      |                           ~^    ~
+      |                            |    |
+      |                            |    float *
+      |                            double
+..\src\TP_1.c:111:4: error: invalid operands to binary * (have 'float *' and 'int')
+  111 |   A*= i;
+      |    ^~
+..\src\TP_1.c:112:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  112 |   printf("el aux es %d\n",A);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  float *
+18:41:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c:103:5: error: conflicting types for 'factorialNumeros'
+  103 | int factorialNumeros(float *A)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: previous declaration of 'factorialNumeros' was here
+   18 | int factorialNumeros(float A);
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:108:28: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  108 |  printf("el valor de A es:%f\n",A);
+      |                           ~^    ~
+      |                            |    |
+      |                            |    float *
+      |                            double
+..\src\TP_1.c:109:11: warning: comparison between pointer and integer
+  109 |  for(i=1;i<=A;i++)
+      |           ^~
+..\src\TP_1.c:111:4: error: invalid operands to binary * (have 'float *' and 'int')
+  111 |   A*= i;
+      |    ^~
+..\src\TP_1.c:112:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  112 |   printf("el aux es %d\n",A);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  float *
+00:22:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:34:32: error: 'D' undeclared (first use in this function)
+   34 |  factorial=factorialNumeros(A,&D);
+      |                                ^
+..\src\TP_1.c:34:32: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:34:12: error: too many arguments to function 'factorialNumeros'
+   34 |  factorial=factorialNumeros(A,&D);
+      |            ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: declared here
+   18 | int factorialNumeros(float A);
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:103:5: error: conflicting types for 'factorialNumeros'
+  103 | int factorialNumeros(float A,float*D)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: previous declaration of 'factorialNumeros' was here
+   18 | int factorialNumeros(float A);
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:114:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  114 |   printf("el aux es %d\n",A);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  double
+      |                     %f
+00:23:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:35:12: error: too many arguments to function 'factorialNumeros'
+   35 |  factorial=factorialNumeros(A,&D);
+      |            ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: declared here
+   18 | int factorialNumeros(float A);
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:104:5: error: conflicting types for 'factorialNumeros'
+  104 | int factorialNumeros(float A,float*D)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: previous declaration of 'factorialNumeros' was here
+   18 | int factorialNumeros(float A);
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:115:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  115 |   printf("el aux es %d\n",A);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  double
+      |                     %f
+00:24:20 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:115:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  115 |   printf("el aux es %d\n",A);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  double
+      |                     %f
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:25:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:26:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d", D);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int double
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:26:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d", D);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int double
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:115:4: warning: assignment to 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  115 |   D=aux;
+      |    ^
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:27:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d", D);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int double
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:115:5: error: incompatible types when assigning to type 'float *' from type 'float'
+  115 |   D=(float)aux;
+      |     ^
+00:28:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d", D);
+      |                                 ~^   ~
+      |                                  |   |
+      |                                  int double
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:29:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:109:3: warning: assignment to 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  109 |  D=1;
+      |   ^
+..\src\TP_1.c:114:4: error: invalid operands to binary * (have 'float *' and 'int')
+  114 |   D*= i;
+      |    ^~
+..\src\TP_1.c:115:22: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  115 |   printf("el aux es %d\n",D);
+      |                     ~^    ~
+      |                      |    |
+      |                      int  float *
+00:30:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:32:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:111:8: error: 'Null' undeclared (first use in this function)
+  111 |  if(D!=Null&&D!=0)
+      |        ^~~~
+..\src\TP_1.c:111:8: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:119:4: error: expected '}' before 'else'
+  119 |   }else
+      |    ^~~~
+..\src\TP_1.c:107:6: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+  107 |  int retorno;
+      |      ^~~~~~~
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:124:2: error: expected identifier or '(' before 'return'
+  124 |  return retorno;
+      |  ^~~~~~
+..\src\TP_1.c:125:1: error: expected identifier or '(' before '}' token
+  125 | }
+      | ^
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:123:2: warning: control reaches end of non-void function [-Wreturn-type]
+  123 |  }
+      |  ^
+00:33:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:111:8: error: 'Null' undeclared (first use in this function)
+  111 |  if(D!=Null&&D!=0)
+      |        ^~~~
+..\src\TP_1.c:111:8: note: each undeclared identifier is reported only once for each function it appears in
+00:34:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:111:8: error: 'NUll' undeclared (first use in this function)
+  111 |  if(D!=NUll&&D!=0)
+      |        ^~~~
+..\src\TP_1.c:111:8: note: each undeclared identifier is reported only once for each function it appears in
+00:34:34 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:111:8: error: 'NUll' undeclared (first use in this function)
+  111 |  if(A!=NUll&&A!=0)
+      |        ^~~~
+..\src\TP_1.c:111:8: note: each undeclared identifier is reported only once for each function it appears in
+00:35:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: variable 'factorial' set but not used [-Wunused-but-set-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:35:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:35:21: warning: passing argument 2 of 'factorialNumeros' from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |  factorialNumeros(A,&D);
+      |                     ^~
+      |                     |
+      |                     int *
+..\src\TP_1.c:18:36: note: expected 'float *' but argument is of type 'int *'
+   18 | int factorialNumeros(float A,float*D);
+      |                              ~~~~~~^
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:36:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:35:21: warning: passing argument 2 of 'factorialNumeros' from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |  factorialNumeros(A,&D);
+      |                     ^~
+      |                     |
+      |                     int *
+..\src\TP_1.c:18:36: note: expected 'float *' but argument is of type 'int *'
+   18 | int factorialNumeros(float A,float*D);
+      |                              ~~~~~~^
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: At top level:
+..\src\TP_1.c:104:5: error: conflicting types for 'factorialNumeros'
+  104 | int factorialNumeros(float A,int*D)
+      |     ^~~~~~~~~~~~~~~~
+..\src\TP_1.c:18:5: note: previous declaration of 'factorialNumeros' was here
+   18 | int factorialNumeros(float A,float*D);
+      |     ^~~~~~~~~~~~~~~~
+00:36:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:37:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:117:5: warning: assignment to 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  117 |    D=aux;
+      |     ^
+..\src\TP_1.c:118:21: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  118 |    printf("el D es %d\n",D);
+      |                    ~^    ~
+      |                     |    |
+      |                     int  float *
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:38:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:117:6: error: incompatible types when assigning to type 'float *' from type 'float'
+  117 |    D=aux;
+      |      ^~~
+..\src\TP_1.c:118:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  118 |    printf("el D es %f\n",D);
+      |                    ~^    ~
+      |                     |    |
+      |                     |    float *
+      |                     double
+00:39:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:118:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  118 |    printf("el D es %f\n",D);
+      |                    ~^    ~
+      |                     |    |
+      |                     |    float *
+      |                     double
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:39:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:118:21: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float *' [-Wformat=]
+  118 |    printf("el D es %d\n",D);
+      |                    ~^    ~
+      |                     |    |
+      |                     int  float *
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:40:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:118:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float *' [-Wformat=]
+  118 |    printf("el D es %f\n",D);
+      |                    ~^    ~
+      |                     |    |
+      |                     |    float *
+      |                     double
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:40:40 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:40:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:118:21: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  118 |    printf("el D es %d\n",*D);
+      |                    ~^    ~~
+      |                     |    |
+      |                     int  double
+      |                    %f
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:40:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:41:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:48:34: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   48 |  printf("El factorial de A es : %d",D);
+      |                                 ~^  ~
+      |                                  |  |
+      |                                  |  double
+      |                                  int
+      |                                 %f
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:41:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:35:21: warning: passing argument 2 of 'factorialNumeros' from incompatible pointer type [-Wincompatible-pointer-types]
+   35 |  factorialNumeros(A,&D);
+      |                     ^~
+      |                     |
+      |                     int *
+..\src\TP_1.c:18:36: note: expected 'float *' but argument is of type 'int *'
+   18 | int factorialNumeros(float A,float*D);
+      |                              ~~~~~~^
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+00:42:49 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:44:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+00:47:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+00:48:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:49:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+   30 |  int factorial;
+      |      ^~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:53:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:58:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+00:59:34 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+01:01:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+01:03:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:121:21: error: invalid operands to binary != (have 'float' and 'char *')
+  121 |  if(D!=NULL&&A!=0&&A!="float")
+      |                     ^~
+      |                     |
+      |                     char *
+01:03:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'factorialNumeros':
+..\src\TP_1.c:121:21: error: invalid operands to binary != (have 'float' and 'char *')
+  121 |  if(D!=NULL&&A!=0&&A!="%f")
+      |                     ^~
+      |                     |
+      |                     char *
+01:03:58 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+01:05:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" 
