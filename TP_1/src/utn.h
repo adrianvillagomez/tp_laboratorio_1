@@ -13,7 +13,7 @@
 /// \brief Pide dos numeros al usuario
 /// \param pResultado Operando A
 /// \param psegundo Operando B
-/// \return 1[si salio todo bien]
+/// \return 1[todo bien]
 int utn_PedirNumero(float *pResultado,float*psegundo);
 /// \fn float sumaNumeros(float, float)
 /// \brief Suma dos numeros flotantes
