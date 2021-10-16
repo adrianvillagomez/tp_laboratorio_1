@@ -10,8 +10,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include "ArrayEmployees.h"
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	setbuf(stdout,NULL);
+	printf("[1] Systems.\n"
+			   "[2] Engineering.\n"
+			   "[3] Design.\n"
+			   "[4] Finances.\n");
+
+	//min:1,27 video 10/07
+	//1:32 modificar
 	return EXIT_SUCCESS;
 }
