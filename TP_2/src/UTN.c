@@ -53,6 +53,7 @@ int utn_getText(char pResultado[], int len, char* mensaje, char* mensajeError, i
 		if(pResultado != NULL && mensaje != NULL && mensajeError != NULL && reintentos >= 0)
 		{
 			printf("%s",mensaje);
+			fflush(stdin);
 			if(myGets(pResultado, len)==0)
 			{
 				retorno = 0;
@@ -76,6 +77,7 @@ int utn_getInt(int* pResultado, char* mensaje, char* mensajeError, int minimo, i
 		for(i=0; i<=reintentos; i++)
 		{
 			printf("%s", mensaje);
+
 			fflush(stdin);
 
 			//if(scanf("%d", &bufferInt)==1)
@@ -118,6 +120,7 @@ int utn_getFloat(float* pResultado, char* variableTexto,char* textoError,float m
 		for (i=0; i<=reintentos; i++)
 		{
 			printf("%s",variableTexto);
+			fflush(stdin);
 
 			salidaScanf=scanf("%f", &buffer);
 

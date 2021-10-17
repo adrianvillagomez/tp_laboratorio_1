@@ -13,10 +13,10 @@ static int getNewId(void)
 	static int contador=0;
 	return contador++;
 }
-int initemployees(Employee array[], int len)
+int initemployees(Employee array[], int len)//1-libre   0-ocupado
 {
     int i;
-    int banderaTodoBien;
+    int banderaTodoBien=-1;
 
     banderaTodoBien = 0;
 
@@ -26,60 +26,69 @@ int initemployees(Employee array[], int len)
         for (i=0; i<len ;i++)
         {
         	array[i].isEmpty = 1;
+        	 banderaTodoBien = 0;
         }
     }
     return banderaTodoBien;
 }
-int cargarSoloUno(Employee array[])
+int chargeEmployee (Employee array[],int len)
 {
 	int rtn=-1;
-	int typeAux;
-	float pricePerDayAux;
-	char nameAux[128];
-	char addressAux[128];
-	if(array!=NULL)
+	char auxName[52];
+	char auxLastName[52];
+	float auxSalary;
+	int auxSector;
+	int auxId;
+	if(array!=NULL && len>0)
 	{
-		if(utn_getInt(&typeAux, "ingrese 0 para LCD o 1 para LED\n", "error\n", 0, 1, 5)==0)
+		if(utn_getText(auxName, 52, "Ingrese Nombre del empleado: ", "Dato invalido.\n	",2)==0)
+		{
+			if(utn_getText(auxLastName, 52, "Ingrese Apellido del empleado: ", "Dato invalido.\n",2)==0)
+			{
+				if(utn_getFloat(&auxSalary, "Ingrese Salario del empleado: ", "Dato invalido", 0,10000, 2)==0)
 				{
-					if(utn_getFloat(&pricePerDayAux, "ingrese precio por dia\n", "error\n", 0, 10000, 5)==0)
+					if(utn_getInt(&auxSector, "Ingrese Sector", "Dato invalido", 0, 50, 2)==0)
 					{
-						if(utn_getText(nameAux, 128, "ingrese el nombre\n", "error\n", 5)==0)
-						{
-							if(utn_getText(addressAux, 128, "ingrese la direccion\n", "error\n", 5)==0)
-							{
-								//array->type=typeAux;
-								//array->price=pricePerDayAux;
-								array->id=getNewId(); // generar el ID
-								//strncpy(array->name,nameAux,sizeof(array->name));
-								//strncpy(array->address,addressAux,sizeof(array->address));
-								array->isEmpty=0;
-								rtn=0;
-							}
-						}
+						auxId=getNewId();
+
+						addEmployee(array, len, auxId, auxName, auxLastName, auxSalary, auxSector);
+						rtn=0;
+
 					}
 				}
+
+			}
+		}
 
 	}
 	return rtn;
 }
-int cargaVerificada(Employee array[],int len)//busca lugar libre y carga los display
+int addEmployee(Employee array[],int len,int id,char name[],char lastName[],float salary,int sector)
 {
-	int retorno=-1;
+	int rtn=-1;
 	int lugarLibre;
-	if(array!=NULL)
+	if(array!=NULL && len>0)
 	{
-		lugarLibre=encontrarIndexVacio(array, len);//busca lugar libre
+		lugarLibre=encontrarIndexVacio(array, len);
 		if(lugarLibre==-1)
-			{
-				printf("error todos los lugares ocupados: %d \n",lugarLibre);
-			 }else
-			 {
-				 cargarSoloUno(&array[lugarLibre]);
-			 }
+		{
+			printf("Error todos los lugares ocupados: %d \n",lugarLibre);
+		}else
+		{
+			array[lugarLibre].id=id;
+			strncpy(array[lugarLibre].name,name,sizeof(array->name));
+			strncpy(array[lugarLibre].lastName,lastName,sizeof(array->lastName));
+			array[lugarLibre].salary=salary;
+			array[lugarLibre].sector=sector;
+			array[lugarLibre].isEmpty=0;
+			rtn=0;
+		}
 
 	}
-	return retorno;
+
+	return rtn;
 }
+
 
 int encontrarIndexVacio(Employee array[],int len)//busca el primer lugar libre
 {
@@ -100,15 +109,12 @@ int encontrarIndexVacio(Employee array[],int len)//busca el primer lugar libre
 }
 void imprimirSoloUno(Employee array)
 {
-			//printf("El tipo de pantalla es: 0 LCD,1 LED:%d\n",pdysplay.type);
-			//printf("El precio por dia es: %.2f\n",pdysplay.price);
-			//printf("El id es: %d \n",array.id);
-			//printf("El nombre es : %s\n",array.name);
-			//printf("La direccion es : %s\n",array.address);
-			//printf("Este espacio en memoria esta en uso: %d\n",pdysplay.flagEmpty);
+	printf("%3d     %10s      %10s       %.2f            %d\n",array.id, array.name, array.lastName, array.salary, array.sector);
 }
 int printEmployees (Employee array[], int len)
 {
+	printf("\n-----------------Lista de Empleados---------------------------\n");
+	printf("  id       Nombre         Apellido       Salario      Sector\n");
 	int rtn=-1;
 	int i;
 	if(array!=NULL && len>0)
@@ -166,25 +172,26 @@ int removeEmployee(Employee array[],int len,int id)
 int modificarSoloUno(Employee array[])
 {
 	int rtn=-1;
-	int typeAux;
-	float pricePerDayAux;
-	char nameAux[128];
-	char addressAux[128];
+	char auxName[52];
+	char auxLastName[52];
+	float auxSalary;
+	int auxSector;
 	if(array!=NULL)
 	{
-		if(utn_getInt(&typeAux, "ingrese 0 para LCD o 1 para LED\n", "error\n", 0, 1, 5)==0)
+		if(utn_getText(auxName, 52, "Ingrese nombre del empleado", "Dato invalido", 2)==0)
 				{
-					if(utn_getFloat(&pricePerDayAux, "ingrese precio por dia\n", "error\n", 0, 10000, 5)==0)
+					if(utn_getText(auxLastName, 52, "Ingrese apellido del empleado", "Dato invalido", 2)==0)
 					{
-						if(utn_getText(nameAux, 128, "ingrese el nombre\n", "error\n", 5)==0)
+						if(utn_getFloat(&auxSalary, "Ingrese salario", "Dato invalido", 0, 1000, 2)==0)
 						{
-							if(utn_getText(addressAux, 128, "ingrese la direccion\n", "error\n", 5)==0)
+							if(utn_getInt(&auxSector, "Ingrese Sector", "Dato invalido", 0, 50, 2)==0)
 							{
-								//array->type=typeAux;
-								//array->price=pricePerDayAux;
-								//pDisplay->id=getNewId(); // generar el ID
-								//strncpy(array->name,nameAux,sizeof(pdysplay->name));
-								//strncpy(array->address,addressAux,sizeof(array->address));
+
+								array->id=getNewId(); // generar el ID
+								strncpy(array->name,auxName,sizeof(array->name));
+								strncpy(array->lastName,auxLastName,sizeof(array->lastName));
+								array->salary=auxSalary;
+								array->sector=auxSector;
 								array->isEmpty=0;
 								rtn=0;
 							}
@@ -203,7 +210,7 @@ int modificacionVerificada(Employee array[],int len)
 	if(array!=NULL && len >0)
 	{
 		printEmployees(array, len);//imprimir lista
-			if(utn_getInt(&idIngresado, "ingrese el id a modificar", "error ingrese id valido", 0, 99, 5)==0)// pido el id al usuario
+			if(utn_getInt(&idIngresado, "Ingrese el ID a modificar", "Error ingrese ID valido", 0, 99, 5)==0)// pido el id al usuario
 				 {
 					 indexAmodificar=findEmployeeById(array,len,idIngresado);// Busco si ese ID esta en uso
 					 if(indexAmodificar==-1)
@@ -220,6 +227,101 @@ int modificacionVerificada(Employee array[],int len)
 	}
 		return rtn;
 }
+int sortEmployees(Employee array[],int len,int order)
+{
+	int retorno = -1;
+		Employee bufferList;
+		int i;
+		int j;
+
+		if (array!= NULL && len >= 0)
+		{
+			switch (order)
+			{
+			case 1:
+				for (i = 0; i < len; i++) {
+					for (j = i + 1; j < len; j++) {
+						if (strcmp(array[i].lastName, array[j].lastName) > 0) {
+							bufferList = array[i];
+							array[i] = array[j];
+							array[j] = bufferList;
+							retorno = 0;
+						} else {
+							if (strcmp(array[i].lastName, array[j].lastName) == 0
+									&& array[i].sector > array[j].sector) // > de menor a mayor
+											{
+								bufferList = array[i];
+								array[i] = array[j];
+								array[j] = bufferList;
+							}
+						}
+					}
+				}
+				break;
+			case 2:
+				for (i = 0; i < len; i++) {
+					for (j = i + 1; j < len; j++) {
+						if (strcmp(array[i].lastName, array[j].lastName) < 0) {
+							bufferList = array[i];
+							array[i] = array[j];
+							array[j] = bufferList;
+							retorno = 0;
+						} else {
+							if (strcmp(array[i].lastName, array[j].lastName) == 0
+									&& array[i].sector < array[j].sector) // > de menor a mayor
+											{
+								bufferList = array[i];
+								array[i] = array[j];
+								array[j] = bufferList;
+							}
+						}
+					}
+				}
+				break;
+			}
+		}
+		return retorno;
+}
+int salaryEmployees (Employee array[],int len,float *promedio,int *contador,float *acumulador)
+{
+
+	int i;
+	int retorno=-1;
+	float bufferAcumulador=0;
+	int bufferContador=0;
+	int bufferContadorMayor=0;
+	float bufferPromedio;
+	if (array != NULL && len > 0)
+	{
+		for (i = 0; i < len; i++)
+		{
+			if (array[i].isEmpty == 0)
+			{
+				bufferAcumulador = bufferAcumulador + array[i].salary;
+				bufferContador++;
+				retorno=0;
+			}
+		}
+	}
+
+	*acumulador=bufferAcumulador;
+	bufferPromedio=bufferAcumulador/bufferContador;
+	*promedio=bufferPromedio;
+
+	for (i = 0; i < len; i++)
+			{
+				if (array[i].isEmpty == 0 && array[i].salary>bufferPromedio)
+				{
+
+					bufferContadorMayor++;
+
+				}
+
+			*contador=bufferContadorMayor;
+
+			}
+return retorno;
 
 
+}
 
