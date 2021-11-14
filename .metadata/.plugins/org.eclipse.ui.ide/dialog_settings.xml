@@ -5,6 +5,10 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\adrian\Desktop\Programacion1Cuatrimestre\Trabajospracticos\tp4\TP_4\likedList"/>
+			<item value="C:\Users\adrian\Desktop\Programacion1Cuatrimestre\Trabajospracticos\tp3\eclipse_tp3_v3\tp3_windows"/>
+		</list>
 	</section>
 	<section name="NewWizardAction">
 	</section>

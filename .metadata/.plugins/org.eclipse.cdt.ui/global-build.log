@@ -1,4 +1,90 @@
-22:54:42 **** Incremental Build of configuration Debug for project TP_2 ****
+23:22:05 **** Incremental Build of configuration Debug for project pruebaTp3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
-gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\TP_2.o" "src\\UTN.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+..\parser.c: In function 'parser_EmployeeFromBinary':
+..\parser.c:62:42: warning: passing argument 4 of 'fread' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |    if(fread(pEmployee,sizeof(Employee),1,pEmployee)==1)
+      |                                          ^~~~~~~~~
+      |                                          |
+      |                                          Employee * {aka struct <anonymous> *}
+In file included from ..\parser.c:1:
+c:\mingw\include\stdio.h:767:72: note: expected 'FILE *' {aka 'struct _iobuf *'} but argument is of type 'Employee *' {aka 'struct <anonymous> *'}
+  767 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t fread (void *, size_t, size_t, FILE *);
+      |                                                                        ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:40:54: error: 'pArrayListEmployee' undeclared (first use in this function)
+   40 |              controller_loadFromBinary("prueba.dat", pArrayListEmployee);
+      |                                                      ^~~~~~~~~~~~~~~~~~
+..\main.c:40:54: note: each undeclared identifier is reported only once for each function it appears in
+23:22:40 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file pruebaTp3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:22:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+23:23:58 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:26:14 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file pruebaTp3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:26:17 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:27:35 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:28:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:28:40 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:29:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:30:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:33:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file pruebaTp3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:33:18 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+23:33:38 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:35:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\adrian\\Desktop\\Programacion1Cuatrimestre\\Trabajospracticos\\tp3\\eclipse_tp3_v3\\tp3_windows" -o pruebaTp3.exe Controller.o Employee.o Validaciones.o main.o parser.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
