@@ -118,7 +118,7 @@ int employee_getSueldo(Employee* this,int* sueldo)
 }
 int employee_buscarPorId(LinkedList* pArrayListEmployee,int id)
 {
-	int rtn=1;
+	int rtn=-1;
 	Employee* pEmployee;
 	int i;
 	int idAux;

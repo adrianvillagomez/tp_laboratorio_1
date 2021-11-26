@@ -78,7 +78,7 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
 				if(utn_getNumero(&auxHorasTrabajadas, "Ingrese Horas Trabajadas\n","Error dato invalido: 0-120",0,120,2)==0)
 				{
 					controller_asignarId(pArrayListEmployee, &id);
-					employee_setId(auxEmpleado, id);
+					employee_setId(auxEmpleado,id);
 					employee_setNombre(auxEmpleado, auxNombre);
 					employee_setSueldo(auxEmpleado, auxSueldo);
 					employee_setHorasTrabajadas(auxEmpleado, auxHorasTrabajadas);

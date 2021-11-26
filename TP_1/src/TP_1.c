@@ -22,6 +22,9 @@ int main(void) {
 	float c;
 	float D;
 	float E;
+	int a;
+	int b;
+	int d;
 	int factorialA;
 	int factorialB;
 	utn_PedirNumero(&A,&B);

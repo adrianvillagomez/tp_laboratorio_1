@@ -324,7 +324,7 @@ int ll_clear(LinkedList* this)
         {
         	for(int i=0;i<ll_len(this);i++)
         	{
-        		ll_remove(this, i);
+        		ll_remove(this, i);//0
         	}
         	this->pFirstNode = NULL;
         	this->size = 0;
@@ -521,7 +521,6 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
         }
     return returnAux;
 }
-
 /** \brief Crea y retorna una nueva lista con los elementos indicados
  *
  * \param pList LinkedList* Puntero a la lista
@@ -553,9 +552,6 @@ LinkedList* ll_subList(LinkedList* this,int from,int to)
        }
     return cloneArray;
 }
-
-
-
 /** \brief Crea y retorna una nueva lista con los elementos de la lista pasada como parametro
  *
  * \param pList LinkedList* Puntero a la lista
@@ -625,6 +621,12 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return returnAux;
 
 }
+/// \fn int ll_map(LinkedList*, int(*)(void*))
+/// \brief agarra cada uno de los elemntos de la lista toma uno por uno y se los da a una funcion -
+/// 		esa funcion hace algo con ese elemento -Se usa - imprimir empleados sorc
+/// \param this
+/// \param pFunc
+/// \return
 int ll_map(LinkedList* this,int (*pFunc)(void*))
 {
 	int retorno=-1;
@@ -638,8 +640,8 @@ int ll_map(LinkedList* this,int (*pFunc)(void*))
 	{
 		//RECORRO LA LISTA
 		for(i=0;i<ll_len(this);i++)
-			//tomo el elemento
 		{
+			//tomo el elemento
 			pAux=ll_get(this, i);
 			if(pAux!=NULL)
 			{
@@ -652,6 +654,11 @@ int ll_map(LinkedList* this,int (*pFunc)(void*))
 	return retorno;
 
 }
+/// \fn int ll_filter(LinkedList*, int(void*))
+/// \brief para filtrar
+/// \param this
+/// \param pFunc
+/// \return
 int ll_filter (LinkedList* this , int (pFunc)(void*))
 {
 	int returnAux = -1;
