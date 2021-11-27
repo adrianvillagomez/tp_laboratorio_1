@@ -19,6 +19,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\adrian\LinkenlistParcia\TP1_recuperatorio"/>
+			<item value="C:\Users\adrian\LinkenlistParcia\pruebass"/>
 			<item value="C:\Users\adrian\Desktop\Programacion1Cuatrimestre\Trabajospracticos\tp4\TP_4\likedList"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

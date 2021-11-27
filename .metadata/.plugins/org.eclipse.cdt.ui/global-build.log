@@ -1,2 +1,10 @@
-Info: Nothing to build for TP1_recuperatorio
-Info: Nothing to build for TP1_recuperatorio
+22:47:56 **** Rebuild of configuration Debug for project TP3-TP4_recuperatorio ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP3-TP4_recuperatorio.o" "..\\src\\TP3-TP4_recuperatorio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\parser.o" "..\\src\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Employee.o" "..\\src\\Employee.c" 
+gcc -o TP3-TP4_recuperatorio.exe "src\\Controller.o" "src\\Employee.o" "src\\LinkedList.o" "src\\TP3-TP4_recuperatorio.o" "src\\Validaciones.o" "src\\parser.o" 
+Info: Nothing to build for TP3-TP4_recuperatorio
