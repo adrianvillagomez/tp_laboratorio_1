@@ -173,17 +173,17 @@ int sort_id(void* idUno,void* idDos)
 int sort_nombre(void* nombreUno,void* nombreDos)
 {
 	int rtn = 0;
-	char eFirstNombre[128];
-	char eSecondNombre[128];
-	Employee* eFirts = (Employee*) nombreUno;
-	Employee* eSecond = (Employee*) nombreDos;
+		char eFirstNombre[128];
+		char eSecondNombre[128];
+		Employee* eFirts = (Employee*) nombreUno;
+		Employee* eSecond = (Employee*) nombreDos;
 
-	if(employee_getNombre(eFirts, eFirstNombre) !=-1 && employee_getNombre(eSecond, eSecondNombre) !=-1)
-	{
-		rtn = stricmp(eFirstNombre, eSecondNombre);
-	}
+		if(employee_getNombre(eFirts, eFirstNombre) !=-1 && employee_getNombre(eSecond, eSecondNombre) !=-1)
+		{
+			rtn = stricmp(eFirstNombre, eSecondNombre);
+		}
 
-	return rtn;
+		return rtn;
 }
 int sort_horasDeTrabajo(void* horasUno, void* horasDos)
 {

@@ -1,2 +1,4 @@
-Info: Nothing to build for TP3-TP4_recuperatorio
+22:46:31 **** Incremental Build of configuration Debug for project TP3-TP4_recuperatorio ****
+Info: Internal Builder is used for build
+gcc -o TP3-TP4_recuperatorio.exe "src\\Controller.o" "src\\Employee.o" "src\\LinkedList.o" "src\\TP3-TP4_recuperatorio.o" "src\\Validaciones.o" "src\\parser.o" 
 Info: Nothing to build for TP3-TP4_recuperatorio
