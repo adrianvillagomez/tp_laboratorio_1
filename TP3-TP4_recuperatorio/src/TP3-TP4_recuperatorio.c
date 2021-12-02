@@ -46,6 +46,7 @@ int main()
 	            case 2:
 	            	controller_loadFromBinary("data.dat", listaEmpleados);
 	            	printf("Carga desde archivo binario realizada con exito.\n");
+	            	flag=1;
 	            	break;
 	            case 3:
 	            	if(flag==1)
